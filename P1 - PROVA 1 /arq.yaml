@@ -1,0 +1,55 @@
+- input: |
+    0luC#sP
+    0perei1
+  output: |
+    '0' coincidente na posição 1
+    Senha não alterada
+
+- input: |
+    0luC#sP
+    0pereiP
+  output: |
+    '0' coincidente na posição 1
+    'P' coincidente na posição 7
+    Senha não alterada
+
+- input: |
+    futebol
+    futebol#
+  output: |
+    'f' coincidente na posição 1
+    'u' coincidente na posição 2
+    't' coincidente na posição 3
+    'e' coincidente na posição 4
+    'b' coincidente na posição 5
+    'o' coincidente na posição 6
+    'l' coincidente na posição 7
+    Senha não alterada
+
+- input: |
+    futebol
+    futebol
+  output: |
+    'f' coincidente na posição 1
+    'u' coincidente na posição 2
+    't' coincidente na posição 3
+    'e' coincidente na posição 4
+    'b' coincidente na posição 5
+    'o' coincidente na posição 6
+    'l' coincidente na posição 7
+    Senha não alterada
+
+- input: |
+    jogo
+    #rucem
+  output: |
+    Senha alterada com sucesso
+
+- input: |
+    |
+    |
+  output: |
+    'Senha alterada com sucesso'
+
+
+    
